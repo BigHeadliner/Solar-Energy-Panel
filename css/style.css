@@ -414,6 +414,20 @@
    .service__img{ 
      width:100%; 
      height:400px;
+   } 
+    
+   /*     SERVICE     */ 
+   .step__inner { 
+     flex-wrap: wrap;
+   } 
+   .step__content{ 
+     margin-right:0;
+   } 
+   .step__img{ 
+     object-fit:cover; 
+     height:400px;  
+     flex-basis:100%; 
+     max-width:100%;
    }
 }  
  
@@ -460,7 +474,27 @@
   .blockquote__text{  
     font-size: 28px; 
     line-height: 32px; 
+  }  
+  /*     FOOTER     */  
+  .footer__bottom{ 
+    flex-wrap:wrap; 
+    justify-content: center;  
+    text-align: center;
   } 
+  .footer__bottom .logo{  
+    width:100%;
+    margin:20px 0;  
+  }  
+
+  .footer__top{ 
+    flex-wrap:wrap;
+  } 
+  .footer__form{ 
+    flex-basis: 100%; 
+    margin-right:0; 
+    margin-bottom:40px;
+  }
+
 } 
   
 @media (max-width: 640px) { 
