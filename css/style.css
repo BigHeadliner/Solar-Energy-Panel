@@ -371,3 +371,42 @@
 .footer .social{ 
   margin-right: -10px;
 }
+  
+@media (max-width: 768px) {  
+    /*     HEADER     */
+  .header__title { 
+    font-size: 48px; 
+    line-height:56px;
+  } 
+   
+  .header__title span { 
+    font-size: 32px; 
+    line-height:40px;
+  }
+} 
+ 
+@media (max-width: 540px) {  
+  /*     HEADER     */
+  .header__title { 
+    font-size: 32px; 
+    line-height:38px;
+  } 
+   
+  .header__title span { 
+    font-size: 22px; 
+    line-height:28px;
+  } 
+  .header__subtitle{ 
+    font-size:16px; 
+    line-height:22px;
+  }
+}  
+
+ 
+   @media (max-width: 375px) {  
+ .button__text{ 
+   margin-left: -76px;
+ }
+}   
+  
+ 
