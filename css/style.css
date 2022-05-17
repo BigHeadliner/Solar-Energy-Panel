@@ -436,7 +436,16 @@
   .header__title span { 
     font-size: 32px; 
     line-height:40px;
-  }
+  }  
+  /*     BLOCKQUOTE     */ 
+
+  .blockquote{ 
+    padding: 60px 10px 80px;
+  } 
+  .blockquote__text{  
+    font-size: 28px; 
+    line-height: 32px; 
+  } 
 } 
   
 @media (max-width: 640px) { 
@@ -519,6 +528,11 @@
  } 
  .service__box{ 
    margin-bottom:30px;
+ } 
+ /*     BLOCKQUOTE     */  
+ .blockquote__text{ 
+   font-size: 22px; 
+   line-height: 28px;
  }
 }    
 
